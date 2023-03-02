@@ -2,6 +2,26 @@ from functools import reduce
 
 lista = [1, 3, -1, 15, 9]
 
+def SumatorioClasico(l):
+    resultado = 0
+    for valor in l:
+        resultado += valor
+
+    return resultado
+
+def SumatorioDobleClasico(l):
+    resultado = 0
+    for valor in l:
+        resultado += valor*2
+
+    return resultado
+
+def ProductoTotal(l):
+    resultado = 1
+    for valor in l:
+        resultado *= valor
+
+    return resultado
 
 def doble(x):
     return x + x
